@@ -25,4 +25,4 @@
 7) If you exit the window while the code was there, it may not be recorded. You can search for it in the browser log (ctrl+shift+J)
 (Some scripts for HC block logs from other scripts. So you won't necessarily find these codes there)
 
-Thank you for using my script!
+# Thank you for using my script!
