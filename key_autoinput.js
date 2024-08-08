@@ -7,7 +7,7 @@
 // @grant       none
 // @version     1.0
 // @author      -
-// @description 7/31/2024, 3:41:52 PM
+// @description 8/08/2024
 // @require     https://cdn.jsdelivr.net/npm/axios@v1.0.0-alpha.1/dist/axios.min.js
 // @icon         https://hamsterkombatgame.io/images/icons/hamster-coin.png
 // @downloadURL  https://github.com/ivan02022000/HCWebKeyGen/edit/main/key_autoinput.js
