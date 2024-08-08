@@ -20,7 +20,7 @@
 3) Go to the file with the code and install it as a script extension
 4) A button with a key will appear in the game - to generate 4 keys for each game that you need to click on it
 5) After that, enter the window for inputing keys in general the screen - at the top right with the key symbol!
-[image](https://github.com/user-attachments/assets/086dd538-b27d-4d1c-b056-b4dcd5bc3180)
+![image](https://github.com/user-attachments/assets/086dd538-b27d-4d1c-b056-b4dcd5bc3180)
 6) the window shows the inscription "wait for the code!" You needed 2-3 minutes until all the codes are automatically enabled.
 7) If you exit the window while the code was there, it may not be recorded. You can search for it in the browser log (ctrl+shift+J)
 (Some scripts for HC block logs from other scripts. So you won't necessarily find these codes there)
