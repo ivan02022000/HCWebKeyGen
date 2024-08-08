@@ -9,7 +9,9 @@
 // @author      -
 // @description 7/31/2024, 3:41:52 PM
 // @require     https://cdn.jsdelivr.net/npm/axios@v1.0.0-alpha.1/dist/axios.min.js
-// @type        'module'
+// @icon         https://hamsterkombatgame.io/images/icons/hamster-coin.png
+// @downloadURL  https://github.com/ivan02022000/HCWebKeyGen/edit/main/key%20autoinput.js
+// @updateURL    https://github.com/ivan02022000/HCWebKeyGen/edit/main/key%20autoinput.js
 // ==/UserScript==
 
 // bike
@@ -33,7 +35,6 @@ const appToken4 = "82647f43-3f87-402d-88dd-09a90025313f";
 const promoId4 = "c4480ac7-e178-4973-8061-9ed5b2e17954";
 
 let ready_codes = [];
-
 
 async function generateClientId() {
     const timestamp = Date.now();
@@ -174,9 +175,6 @@ function inputCode(code) {
 
 function clickInputButton() {
     const inputButton = document.querySelector('.promocode-input-container button');
-  //document.querySelector('.promocode-input-container button');
-  //document.querySelector("#__nuxt > div > main > div.content.is-main.has-glow > div.user-tap.has-gap > button")
-  //document.querySelector("#__nuxt > div > main > header > div.header-right > ul > div > div.promocode > div.promocode-input > div.promocode-input-container > button")
 
     if (inputButton) {
         inputButton.click();
