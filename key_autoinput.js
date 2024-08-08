@@ -10,8 +10,8 @@
 // @description 7/31/2024, 3:41:52 PM
 // @require     https://cdn.jsdelivr.net/npm/axios@v1.0.0-alpha.1/dist/axios.min.js
 // @icon         https://hamsterkombatgame.io/images/icons/hamster-coin.png
-// @downloadURL  https://github.com/ivan02022000/HCWebKeyGen/edit/main/key%20autoinput.js
-// @updateURL    https://github.com/ivan02022000/HCWebKeyGen/edit/main/key%20autoinput.js
+// @downloadURL  https://github.com/ivan02022000/HCWebKeyGen/edit/main/key_autoinput.js
+// @updateURL    https://github.com/ivan02022000/HCWebKeyGen/edit/main/key_autoinput.js
 // ==/UserScript==
 
 // bike
