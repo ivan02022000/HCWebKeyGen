@@ -3,7 +3,9 @@
 # Generate and auto input HamsterCombat keys on web browser! Super cool for bot farms. 
 
 Генерирует ключи для всех 4 игр в HC по нажатию 1 кнопки, само вводит все коды.
+
 Generates keys for all 4 games in HC with 1 button click, and inputs all codes.
+English tutorial below
 
 1) Запустите HC в веб браузере, используя другое решение.
 2) Установите расширение Violent Monkey
