@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
 ![image](https://github.com/user-attachments/assets/4adff27a-901e-427e-8b60-fbd6607d47f0)
 
 5) A button with a key will appear in the game - to generate 4 keys for each game that you need to click on it
-6) After that, enter the window for inputing keys in general the screen - at the top right with the key symbol!
+6) After that, enter the window for inputing keys in the general screen - at the top right with the key symbol!
 
 ![image](https://github.com/user-attachments/assets/086dd538-b27d-4d1c-b056-b4dcd5bc3180)
 
