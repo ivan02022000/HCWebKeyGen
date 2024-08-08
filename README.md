@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
 
 ![image](https://github.com/user-attachments/assets/086dd538-b27d-4d1c-b056-b4dcd5bc3180)
 
-7) в окошке появится надпись "wait for a code!" Вам нужно подождать 2 - 3 минуты, пока все коды будут автоматически введены.
+7) Вам нужно подождать 2 - 3 минуты, пока все коды будут автоматически введены.
 8) Если вы выйдите из окошка, пока там был код он может не записаться. Можете его поискать в логе браузера на (ctrl+shift+J)
 (Некоторые скрипты для HC блокируют логи от других скриптов. Так что не обязательно вы эти коды там найдете)
 
@@ -38,7 +38,7 @@ https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
 
 ![image](https://github.com/user-attachments/assets/086dd538-b27d-4d1c-b056-b4dcd5bc3180)
 
-7) the window shows the inscription "wait for the code!" You needed 2-3 minutes until all the codes are automatically enabled.
+7) You needed 2-3 minutes until all the codes are automatically enabled.
 8) If you exit the window while the code was there, it may not be recorded. You can search for it in the browser log (ctrl+shift+J)
 (Some scripts for HC block logs from other scripts. So you won't necessarily find these codes there)
 
