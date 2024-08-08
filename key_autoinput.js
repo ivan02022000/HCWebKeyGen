@@ -187,7 +187,7 @@ function clickInputButton() {
 async function inputCodesAndPress() {
     const inputContainer = document.querySelector('.promocode-input-container');
     if (inputContainer){
-      inputCode("wait for a code!")
+      //inputCode("wait for a code!")
       if (ready_codes.length > 0){
         let code = ready_codes[0]
         ready_codes.shift()
