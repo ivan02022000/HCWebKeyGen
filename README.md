@@ -4,7 +4,9 @@
 
 1) Запустите HC в веб браузере, используя другое решение.
 2) Установите расширение Violent Monkey
-3) Перейдите на файл с кодом и установите его как скрипт расширения
+3) Перейдите в расширение и создайте новый скрипт с помощью ссылки:
+https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
+![image](https://github.com/user-attachments/assets/4adff27a-901e-427e-8b60-fbd6607d47f0)
 4) В игре появится кнопка с ключем - чтобы сгенерировать 4 ключа для каждой игры нужно на нее нажать
 5) После этого откройте окошко для ввода ключей на основном экране - сверху справа с символом ключа
 ![image](https://github.com/user-attachments/assets/086dd538-b27d-4d1c-b056-b4dcd5bc3180)
@@ -17,7 +19,9 @@
 
 1) Run HC in a web browser using another solution.
 2) Configure the Violent Monkey extension
-3) Go to the file with the code and install it as a script extension
+3) Go to the extension and add a new script with this link:
+https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
+![image](https://github.com/user-attachments/assets/4adff27a-901e-427e-8b60-fbd6607d47f0)
 4) A button with a key will appear in the game - to generate 4 keys for each game that you need to click on it
 5) After that, enter the window for inputing keys in general the screen - at the top right with the key symbol!
 ![image](https://github.com/user-attachments/assets/086dd538-b27d-4d1c-b056-b4dcd5bc3180)
