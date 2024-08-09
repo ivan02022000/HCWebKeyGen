@@ -42,7 +42,7 @@ https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
 ![image](https://github.com/user-attachments/assets/086dd538-b27d-4d1c-b056-b4dcd5bc3180)
 
 7) You needed 2-3 minutes until all the codes are automatically enabled.
-8) 8) UPD: The script waits until the code is entered into the window and only then deletes it from memory and enters the next one. Therefore, if you have an error when entering, you can close and open the entry window again. If you do not need to enter this code and it can be deleted from memory - click on the button with a cross. After that, close and open the code entry window - the next code will appear there.
+8) UPD: The script waits until the code is entered into the window and only then deletes it from memory and enters the next one. Therefore, if you have an error when entering, you can close and open the entry window again. If you do not need to enter this code and it can be deleted from memory - click on the button with a cross. After that, close and open the code entry window - the next code will appear there.
   
 ![image](https://github.com/user-attachments/assets/f7095abb-9451-4b0a-8e8b-50c42dde3da6)
 
