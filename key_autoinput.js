@@ -13,6 +13,8 @@
 // @downloadURL  https://github.com/ivan02022000/HCWebKeyGen/edit/main/key_autoinput.js
 // @updateURL    https://github.com/ivan02022000/HCWebKeyGen/edit/main/key_autoinput.js
 // ==/UserScript==
+// raw link for skript reload
+// https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
 
 // bike
 const name1 = '1 bike'
@@ -35,6 +37,7 @@ const appToken4 = "82647f43-3f87-402d-88dd-09a90025313f";
 const promoId4 = "c4480ac7-e178-4973-8061-9ed5b2e17954";
 
 let ready_codes = [];
+
 
 async function generateClientId() {
     const timestamp = Date.now();
@@ -153,7 +156,7 @@ const logPrefix = "HC Keys Gen + Input:"
 
 
 function getRandomNumber(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
+		return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function inputCode(code) {
@@ -190,20 +193,43 @@ async function inputCodesAndPress() {
       //inputCode("wait for a code!")
       if (ready_codes.length > 0){
         let code = ready_codes[0]
-        ready_codes.shift()
         inputCode(code)
         setTimeout(clickInputButton, getRandomNumber(1000, 1500));
+        setTimeout(function(){checkInputSuccess(1)}, getRandomNumber(2000, 3000));
       } else {
         console.log(`${logPrefix} code not ready`)
+        setTimeout(inputCodesAndPress, getRandomNumber(2000, 3000));
       }
     } else {
       console.log(`${logPrefix} input container not found`)
+      setTimeout(inputCodesAndPress, getRandomNumber(2000, 3000));
     }
-    //clickInputButton();
-    setTimeout(inputCodesAndPress, getRandomNumber(2000, 3000));
 }
 
-// inputCodeAndPress("I want Key!")
+function checkInputSuccess(try_num){
+  const textSuccess = document.querySelector(".promocode-text.promocode-text-success");
+  let isSuccess = false
+  if (textSuccess){
+    if (textSuccess.style.display != "none"){
+      isSuccess = true
+    }
+  }
+
+  const inputContainer = document.querySelector('.promocode-input-container');
+  if (inputContainer){
+    if (isSuccess){
+      console.log(`${logPrefix} input success`)
+      ready_codes.shift()
+      inputCodesAndPress()
+    } else {
+      console.log(`${logPrefix} waiting for input success ${try_num} seconds`)
+      setTimeout(function(){checkInputSuccess(try_num+1)}, 1000);
+    }
+  } else {
+    console.log(`${logPrefix} input canceled`)
+    inputCodesAndPress()
+    }
+  }
 
 // main();
 inputCodesAndPress();
@@ -221,7 +247,7 @@ async function keygenPress(){
   console.log(`${logPrefix}keygen button pressed`);
   if (is_working == false){
     main();
-    
+
     console.log(`${logPrefix}start working`)
     is_working = true;
     this.textContent = '⏳';
@@ -236,11 +262,10 @@ function createButton(){
   keygenButton.className = 'keygen-button';
   keygenButton.textContent = '🔑';
   keygenButton.onclick = keygenPress;
-  console.log("start")
   document.body.appendChild(keygenButton);
 
   const style = document.createElement('style');
-    style.textContent = `
+	style.textContent = `
    .keygen-button {
       position: fixed;
       bottom: 80px;
@@ -255,9 +280,46 @@ function createButton(){
       cursor: pointer;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       z-index: 9998;
+    }
+    `
+
+	document.head.appendChild(style);
+}
+
+async function keyskipPress(){
+  console.log(`${logPrefix}keyskip button pressed`)
+  ready_codes.shift()
+}
+
+const keyskipButton = document.createElement('button');
+
+function createSkipButton(){
+  // const keygenButton = document.createElement('button');
+  keyskipButton.className = 'keyskip-button';
+  keyskipButton.textContent = '❌';
+  keyskipButton.onclick = keyskipPress;
+  document.body.appendChild(keyskipButton);
+
+  const style = document.createElement('style');
+	style.textContent = `
+   .keyskip-button {
+      position: fixed;
+      bottom: 130px;
+      right: 20px;
+      background-color: rgba(36, 146, 255, 0.8);
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      z-index: 9998;
     }`
 
-    document.head.appendChild(style);
+	document.head.appendChild(style);
 }
 
 createButton()
+createSkipButton()
