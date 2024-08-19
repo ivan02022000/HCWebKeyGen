@@ -16,6 +16,15 @@
 // raw link for skript reload
 // https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
 
+// chance of key generation (/100)
+let get_key_percent = 80
+// min time between keys generation
+let min_wait_time = 120000
+// max time between keys generation
+let max_wait_time = 180000
+// time between games
+let wait_time_between_games = max_wait_time*4
+
 // bike
 const name1 = '1 bike'
 const appToken1 = 'd28721be-fd2d-4b45-869e-9f253b554e50';
@@ -35,6 +44,14 @@ const promoId3 = "fe693b26-b342-4159-8808-15e3ff7f8767";
 const name4 = '4 train'
 const appToken4 = "82647f43-3f87-402d-88dd-09a90025313f";
 const promoId4 = "c4480ac7-e178-4973-8061-9ed5b2e17954";
+
+const name5 = '5 MergeAway'
+const appToken5 = '8d1cc2ad-e097-4b86-90ef-7a27e19fb833';
+const promoId5 = 'dc128d28-c45b-411c-98ff-ac7726fbaea4';
+
+const name6 = '6 TwerkRace';
+const appToken6 ='61308365-9d16-4040-8bb0-2f4a4c69074c';
+const promoId6 = '61308365-9d16-4040-8bb0-2f4a4c69074c';
 
 let ready_codes = [];
 
@@ -125,16 +142,24 @@ function generateRandomUUID() {
 
 async function main() {
     try_make_4_keys(appToken1, promoId1, name1)
-    try_make_4_keys(appToken2, promoId2, name2)
-    try_make_4_keys(appToken3, promoId3, name3)
-    try_make_4_keys(appToken4, promoId4, name4)
+    setTimeout(function(){try_make_4_keys(appToken2, promoId2, name2)}, wait_time_between_games*1);
+    setTimeout(function(){try_make_4_keys(appToken3, promoId3, name3)}, wait_time_between_games*2);
+    setTimeout(function(){try_make_4_keys(appToken4, promoId4, name4)}, wait_time_between_games*3);
+    setTimeout(function(){try_make_4_keys(appToken5, promoId5, name5)}, wait_time_between_games*4);
+    setTimeout(function(){try_make_4_keys(appToken6, promoId6, name6)}, wait_time_between_games*5);
 }
 
+
+
 function try_make_4_keys(appToken, promoId, name){
+    let wait_time = 0
     try {
         for (let i = 0; i < 4; i++) {
-            console.log('activate game ', name)
-            setTimeout(function(){gen(appToken, promoId, name)}, 1000*(i + 1));
+            if (getRandomNumber(1, 100) <= get_key_percent){
+              console.log('activate game ', name)
+              setTimeout(function(){gen(appToken, promoId, name)}, wait_time);
+              wait_time = wait_time + getRandomNumber(min_wait_time, max_wait_time)
+            }
         }
     } catch (error) {
         console.error(name, ': Ошибка:', error.response ? error.response.data : error.message);
