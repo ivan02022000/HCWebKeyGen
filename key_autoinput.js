@@ -5,7 +5,7 @@
 // @match        *://*.hamsterkombatgame.io/*
 // @exclude      https://hamsterkombatgame.io/games/UnblockPuzzle/*
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      -
 // @description 8/08/2024
 // @require     https://cdn.jsdelivr.net/npm/axios@v1.0.0-alpha.1/dist/axios.min.js
