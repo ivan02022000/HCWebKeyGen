@@ -17,41 +17,55 @@
 // https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
 
 // chance of key generation (/100)
-let get_key_percent = 80
+let get_key_percent = 90
 // min time between keys generation
 let min_wait_time = 120000
 // max time between keys generation
-let max_wait_time = 180000
+let max_wait_time = 150000
 // time between games
 let wait_time_between_games = max_wait_time*4
 
-// bike
-const name1 = '1 bike'
-const appToken1 = 'd28721be-fd2d-4b45-869e-9f253b554e50';
-const promoId1 = '43e35910-c168-4634-ad4f-52fd764a843f';
+const name1 ="Zoopolis"
+const appToken1 ="b2436c89-e0aa-4aed-8046-9b0515e1c46b"
+const promoId1 ="b2436c89-e0aa-4aed-8046-9b0515e1c46b"
 
-// Chain Cube 2048
-const name2 = '2 2048'
-const appToken2 = "d1690a07-3780-4068-810f-9b5bbf2931b2";
-const promoId2 = "b4170868-cef0-424f-8eb9-be0622e8e8e3";
+const name2 ="Chain Cube 2048"
+const appToken2 ="d1690a07-3780-4068-810f-9b5bbf2931b2"
+const promoId2 ="b4170868-cef0-424f-8eb9-be0622e8e8e3"
 
-// My clone army
-const name3 = '3 clone'
-const appToken3 = "74ee0b5b-775e-4bee-974f-63e7f4d5bacb";
-const promoId3 = "fe693b26-b342-4159-8808-15e3ff7f8767";
+const name3 ="Train Miner"
+const appToken3 ="82647f43-3f87-402d-88dd-09a90025313f"
+const promoId3 ="c4480ac7-e178-4973-8061-9ed5b2e17954"
 
-// Train miner
-const name4 = '4 train'
-const appToken4 = "82647f43-3f87-402d-88dd-09a90025313f";
-const promoId4 = "c4480ac7-e178-4973-8061-9ed5b2e17954";
+const name4 ="Merge Away"
+const appToken4 ="8d1cc2ad-e097-4b86-90ef-7a27e19fb833"
+const promoId4 ="dc128d28-c45b-411c-98ff-ac7726fbaea4"
 
-const name5 = '5 MergeAway'
-const appToken5 = '8d1cc2ad-e097-4b86-90ef-7a27e19fb833';
-const promoId5 = 'dc128d28-c45b-411c-98ff-ac7726fbaea4';
+const name5 ="Twerk Race 3D"
+const appToken5="61308365-9d16-4040-8bb0-2f4a4c69074c"
+const promoId5 ="61308365-9d16-4040-8bb0-2f4a4c69074c"
 
-const name6 = '6 TwerkRace';
-const appToken6 ='61308365-9d16-4040-8bb0-2f4a4c69074c';
-const promoId6 = '61308365-9d16-4040-8bb0-2f4a4c69074c';
+const name6 ="Polysphere"
+const appToken6 ="2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71"
+const promoId6 ="2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71"
+
+const name7 ="Mow and Trim"
+const appToken7 ="ef319a80-949a-492e-8ee0-424fb5fc20a6"
+const promoId7 ="ef319a80-949a-492e-8ee0-424fb5fc20a6"
+
+const name8 ="Fluff Crusade"
+const appToken8 ="112887b0-a8af-4eb2-ac63-d82df78283d9"
+const promoId8 ="112887b0-a8af-4eb2-ac63-d82df78283d9"
+
+const name9 ="Tile Trio"
+const appToken9="e68b39d2-4880-4a31-b3aa-0393e7df10c7"
+const promoId9 ="e68b39d2-4880-4a31-b3aa-0393e7df10c7"
+
+const name10 ="Stone Age"
+const appToken10 ="04ebd6de-69b7-43d1-9c4b-04a6ca3305af"
+const promoId10 ="04ebd6de-69b7-43d1-9c4b-04a6ca3305af"
+
+
 
 let ready_codes = [];
 
@@ -147,6 +161,10 @@ async function main() {
     setTimeout(function(){try_make_4_keys(appToken4, promoId4, name4)}, wait_time_between_games*3);
     setTimeout(function(){try_make_4_keys(appToken5, promoId5, name5)}, wait_time_between_games*4);
     setTimeout(function(){try_make_4_keys(appToken6, promoId6, name6)}, wait_time_between_games*5);
+    setTimeout(function(){try_make_4_keys(appToken7, promoId7, name7)}, wait_time_between_games*6);
+    setTimeout(function(){try_make_4_keys(appToken8, promoId8, name8)}, wait_time_between_games*7);
+    setTimeout(function(){try_make_4_keys(appToken9, promoId9, name9)}, wait_time_between_games*9);
+    setTimeout(function(){try_make_4_keys(appToken10, promoId10, name10)}, wait_time_between_games*10);
 }
 
 
