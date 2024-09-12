@@ -165,6 +165,7 @@ async function main() {
     setTimeout(function(){try_make_4_keys(appToken8, promoId8, name8)}, wait_time_between_games*7);
     setTimeout(function(){try_make_4_keys(appToken9, promoId9, name9)}, wait_time_between_games*9);
     setTimeout(function(){try_make_4_keys(appToken10, promoId10, name10)}, wait_time_between_games*10);
+    setTimeout(function(){try_make_4_keys(appToken8, promoId8, name8)}, wait_time_between_games*11);
 }
 
 
