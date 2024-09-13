@@ -21,7 +21,7 @@ let get_key_percent = 90
 // min time between keys generation
 let min_wait_time = 120000
 // max time between keys generation
-let max_wait_time = 150000
+let max_wait_time = 130000
 // time between games
 let wait_time_between_games = max_wait_time*4
 
@@ -265,9 +265,9 @@ function checkInputSuccess(try_num){
   const inputContainer = document.querySelector('.promocode-input-container');
   if (inputContainer){
     if (isSuccess){
-      console.log(`${logPrefix} input success`)
-      ready_codes.shift()
-      inputCodesAndPress()
+      	console.log(`${logPrefix} input success`)
+      	ready_codes.shift()
+	setTimeout(inputCodesAndPress, min_wait_time);
     } else {
       console.log(`${logPrefix} waiting for input success ${try_num} seconds`)
       setTimeout(function(){checkInputSuccess(try_num+1)}, 1000);
