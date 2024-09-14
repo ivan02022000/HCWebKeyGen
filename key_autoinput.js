@@ -5,7 +5,7 @@
 // @match        *://*.hamsterkombatgame.io/*
 // @exclude      https://hamsterkombatgame.io/games/UnblockPuzzle/*
 // @grant       none
-// @version     1.9
+// @version     2
 // @author      -
 // @description 8/08/2024
 // @require     https://cdn.jsdelivr.net/npm/axios@v1.0.0-alpha.1/dist/axios.min.js
@@ -68,6 +68,10 @@ const promoId10 ="04ebd6de-69b7-43d1-9c4b-04a6ca3305af"
 const name11 = "Bouncemasters"
 const appToken11 = "bc72d3b9-8e91-4884-9c33-f72482f0db37"
 const promoId11 = "bc72d3b9-8e91-4884-9c33-f72482f0db37"
+
+const name12 = 'Hide Ball'
+const appToken12 = '4bf4966c-4d22-439b-8ff2-dc5ebca1a600'
+const promoId12 = '4bf4966c-4d22-439b-8ff2-dc5ebca1a600'
 
 let ready_codes = [];
 
@@ -169,6 +173,7 @@ async function main() {
     setTimeout(function(){try_make_4_keys(appToken10, promoId10, name10)}, wait_time_between_games*10);
     setTimeout(function(){try_make_4_keys(appToken8, promoId8, name8)}, wait_time_between_games*11);
     setTimeout(function(){try_make_4_keys(appToken11, promoId11, name11)}, wait_time_between_games*12);
+    setTimeout(function(){try_make_4_keys(appToken12, promoId12, name12)}, wait_time_between_games*13);
 }
 
 
