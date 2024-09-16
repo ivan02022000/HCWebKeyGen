@@ -13,6 +13,7 @@
 // @updateURL    https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.user.js
 // ==/UserScript==
 
+// test
 // chance of key generation (/100)
 let get_key_percent = 90
 // min time between keys generation
