@@ -2,9 +2,9 @@
 # Генерирует и автоматически вводит ключи Hamster Combat в веб-браузере! Супер удобно для ферм.
 # Generate and auto input HamsterCombat keys on web browser! Super cool for bot farms. 
 
-Генерирует ключи для всех 4 игр в HC по нажатию 1 кнопки, само вводит все коды.
+Генерирует ключи для всех игр в HC по нажатию 1 кнопки, само вводит все коды.
 
-Generates keys for all 4 games in HC with 1 button click, and inputs all codes.
+Generates keys for all games in HC with 1 button click, and inputs all codes.
 English tutorial below
 
 1) Запустите HC в веб браузере, используя другое решение.
@@ -19,8 +19,9 @@ https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
 
 ![image](https://github.com/user-attachments/assets/086dd538-b27d-4d1c-b056-b4dcd5bc3180)
 
-7) Вам нужно подождать 2 - 3 минуты, пока все коды будут автоматически введены.
-8) UPD: Скрипт ждет пока код будет введен в окошко и только тогда удаляет его из памяти и вводит следующий. Поэтоу если у вас возникла ошибка при вводе, вы можете ещё раз закрыть и открыть окошко для ввода. Если этот код вам вводить не надо и его можно удалить из памяти - нажмите на кнопку с крестиком. После этого закройте и откройте окошко для ввода кодов - там появится следующий код.
+7) Вам нужно подождать 2 часа (примерно), пока все коды будут автоматически введены. Такое время нужно для большей незаметности скрипта.
+8) Скрипт ждет пока код будет введен в окошко и только тогда удаляет его из памяти и вводит следующий. Поэтоу если у вас возникла ошибка при вводе, вы можете ещё раз закрыть и открыть окошко для ввода. Если этот код вам вводить не надо и его можно удалить из памяти - нажмите на кнопку с крестиком. После этого закройте и откройте окошко для ввода кодов - там появится следующий код.
+9) Вы можете изменить настройки скрипта в самом коде изменив значения которые находятся ближе к верху скрипта. Можно изменить временные промежутки для ввода, вероятность пропуска (по умолчанию 90% вероятность успеха - 10% вероятность пропуска ключа).
 
 ![image](https://github.com/user-attachments/assets/f7095abb-9451-4b0a-8e8b-50c42dde3da6)
 
@@ -41,8 +42,9 @@ https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
 
 ![image](https://github.com/user-attachments/assets/086dd538-b27d-4d1c-b056-b4dcd5bc3180)
 
-7) You needed 2-3 minutes until all the codes are automatically enabled.
-8) UPD: The script waits until the code is entered into the window and only then deletes it from memory and enters the next one. Therefore, if you have an error when entering, you can close and open the entry window again. If you do not need to enter this code and it can be deleted from memory - click on the button with a cross. After that, close and open the code entry window - the next code will appear there.
+7) You needed 2 hours until all the codes are automatically enabled. It is for script being less detectable.
+8) The script waits until the code is entered into the window and only then deletes it from memory and enters the next one. Therefore, if you have an error when entering, you can close and open the entry window again. If you do not need to enter this code and it can be deleted from memory - click on the button with a cross. After that, close and open the code entry window - the next code will appear there.
+9) You can change the script settings in the code itself by changing the values ​​that are closer to the top of the script. You can change the time intervals for input, the probability of skipping (by default 90% probability of success - 10% probability of skipping the key).
   
 ![image](https://github.com/user-attachments/assets/f7095abb-9451-4b0a-8e8b-50c42dde3da6)
 
