@@ -26,8 +26,7 @@ https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
 ![image](https://github.com/user-attachments/assets/f7095abb-9451-4b0a-8e8b-50c42dde3da6)
 
 (Полученные коды и дейстия скрипта вы можете увидеть в логах браузера (ctrl+shift+J). Но некоторые другие скрипты для HC могут удалять логи, поэтому вы не обязательно их найдете)
- 
-# Спасибо за использование моего скрипта!
+
 ---
 
 1) Run HC in a web browser using another solution.
@@ -49,5 +48,3 @@ https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
 ![image](https://github.com/user-attachments/assets/f7095abb-9451-4b0a-8e8b-50c42dde3da6)
 
 (You can see the received codes and actions of the script in the browser logs (ctrl+shift+J). But some other scripts for HC can delete logs, so you will not necessarily find them)
-
-# Thank you for using my script!
