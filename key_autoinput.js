@@ -10,8 +10,8 @@
 // @description 8/08/2024
 // @require     https://cdn.jsdelivr.net/npm/axios@v1.0.0-alpha.1/dist/axios.min.js
 // @icon         https://hamsterkombatgame.io/images/icons/hamster-coin.png
-// @downloadURL  https://github.com/ivan02022000/HCWebKeyGen/edit/main/key_autoinput.js
-// @updateURL    https://github.com/ivan02022000/HCWebKeyGen/edit/main/key_autoinput.js
+// @downloadURL  https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
+// @updateURL    https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
 // ==/UserScript==
 // raw link for skript reload
 // https://raw.githubusercontent.com/ivan02022000/HCWebKeyGen/main/key_autoinput.js
