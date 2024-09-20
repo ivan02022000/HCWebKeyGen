@@ -70,6 +70,26 @@ const name12 = 'Hide Ball'
 const appToken12 = '4bf4966c-4d22-439b-8ff2-dc5ebca1a600'
 const promoId12 = '4bf4966c-4d22-439b-8ff2-dc5ebca1a600'
 
+const name13 = 'Count Masters'
+const appToken13 = '4bdc17da-2601-449b-948e-f8c7bd376553'
+const promoId13 = '4bdc17da-2601-449b-948e-f8c7bd376553'
+
+const name14 = 'Pin Out Master'
+const appToken14 = 'd2378baf-d617-417a-9d99-d685824335f0'
+const promoId14 = 'd2378baf-d617-417a-9d99-d685824335f0'
+
+const name15 = "Infected Frontier"
+const appToken15 = "eb518c4b-e448-4065-9d33-06f3039f0fcb"
+const promoId15 = "eb518c4b-e448-4065-9d33-06f3039f0fcb"
+
+const name16 = "Among water"
+const appToken16 = "daab8f83-8ea2-4ad0-8dd5-d33363129640"
+const promoId16 = "daab8f83-8ea2-4ad0-8dd5-d33363129640"
+
+const name17 = "Factory World"
+const appToken17 = "d02fc404-8985-4305-87d8-32bd4e66bb16"
+const promoId17 = "d02fc404-8985-4305-87d8-32bd4e66bb16"
+
 let ready_codes = [];
 
 
@@ -171,6 +191,11 @@ async function main() {
     setTimeout(function(){try_make_4_keys(appToken8, promoId8, name8)}, wait_time_between_games*11);
     setTimeout(function(){try_make_4_keys(appToken11, promoId11, name11)}, wait_time_between_games*12);
     setTimeout(function(){try_make_4_keys(appToken12, promoId12, name12)}, wait_time_between_games*13);
+    setTimeout(function(){try_make_4_keys(appToken13, promoId13, name13)}, wait_time_between_games*14);
+    setTimeout(function(){try_make_4_keys(appToken14, promoId14, name14)}, wait_time_between_games*15);
+    setTimeout(function(){try_make_4_keys(appToken15, promoId15, name15)}, wait_time_between_games*16);
+    setTimeout(function(){try_make_4_keys(appToken16, promoId16, name16)}, wait_time_between_games*17);
+    setTimeout(function(){try_make_4_keys(appToken17, promoId17, name17)}, wait_time_between_games*18);
 }
 
 
