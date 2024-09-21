@@ -188,14 +188,13 @@ async function main() {
     setTimeout(function(){try_make_4_keys(appToken8, promoId8, name8)}, wait_time_between_games*7);
     setTimeout(function(){try_make_4_keys(appToken9, promoId9, name9)}, wait_time_between_games*9);
     setTimeout(function(){try_make_4_keys(appToken10, promoId10, name10)}, wait_time_between_games*10);
-    setTimeout(function(){try_make_4_keys(appToken8, promoId8, name8)}, wait_time_between_games*11);
-    setTimeout(function(){try_make_4_keys(appToken11, promoId11, name11)}, wait_time_between_games*12);
-    setTimeout(function(){try_make_4_keys(appToken12, promoId12, name12)}, wait_time_between_games*13);
-    setTimeout(function(){try_make_4_keys(appToken13, promoId13, name13)}, wait_time_between_games*14);
-    setTimeout(function(){try_make_4_keys(appToken14, promoId14, name14)}, wait_time_between_games*15);
-    setTimeout(function(){try_make_4_keys(appToken15, promoId15, name15)}, wait_time_between_games*16);
-    setTimeout(function(){try_make_4_keys(appToken16, promoId16, name16)}, wait_time_between_games*17);
-    setTimeout(function(){try_make_4_keys(appToken17, promoId17, name17)}, wait_time_between_games*18);
+    setTimeout(function(){try_make_4_keys(appToken11, promoId11, name11)}, wait_time_between_games*11);
+    setTimeout(function(){try_make_4_keys(appToken12, promoId12, name12)}, wait_time_between_games*12);
+    setTimeout(function(){try_make_4_keys(appToken13, promoId13, name13)}, wait_time_between_games*13);
+    setTimeout(function(){try_make_4_keys(appToken14, promoId14, name14)}, wait_time_between_games*14);
+    setTimeout(function(){try_make_4_keys(appToken15, promoId15, name15)}, wait_time_between_games*15);
+    setTimeout(function(){try_make_4_keys(appToken16, promoId16, name16)}, wait_time_between_games*16);
+    setTimeout(function(){try_make_4_keys(appToken17, promoId17, name17)}, wait_time_between_games*17);
 }
 
 
