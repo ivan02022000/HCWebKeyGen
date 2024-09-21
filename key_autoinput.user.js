@@ -14,7 +14,7 @@
 // ==/UserScript==
 
 // chance of key generation (/100)
-let get_key_percent = 90
+let get_key_percent = 100
 // min time between keys generation
 let min_wait_time = 120000
 // max time between keys generation
@@ -234,7 +234,7 @@ function getRandomNumber(min, max) {
 }
 
 function inputCode(code) {
-    const inputText = document.querySelector('.promocode-input-container input'); // text
+    const inputText = document.querySelector('.playground-partner-input input'); // text
     if (inputText) {
         inputText.focus();
         inputText.value = "";
@@ -251,7 +251,7 @@ function inputCode(code) {
 }
 
 function clickInputButton() {
-    const inputButton = document.querySelector('.promocode-input-container button');
+    const inputButton = document.querySelector('.playground-partner-input button');
 
     if (inputButton) {
         inputButton.click();
@@ -262,7 +262,7 @@ function clickInputButton() {
 }
 
 async function inputCodesAndPress() {
-    const inputContainer = document.querySelector('.promocode-input-container');
+    const inputContainer = document.querySelector('.playground-partner-input');
     if (inputContainer){
       //inputCode("wait for a code!")
       if (ready_codes.length > 0){
@@ -288,8 +288,9 @@ function checkInputSuccess(try_num){
       isSuccess = true
     }
   }
+  isSuccess = true
 
-  const inputContainer = document.querySelector('.promocode-input-container');
+  const inputContainer = document.querySelector('.playground-partner-input');
   if (inputContainer){
     if (isSuccess){
       	console.log(`${logPrefix} input success`)
